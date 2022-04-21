@@ -45,27 +45,23 @@ header nav ul {
     list-style: none;
 }
 
-.logo-menü {
+header nav ul li {
+    margin-left: 15px;
+}
+
+.nav-menü {
     display: flex;
     align-items: center;
 }
 
-.logo {
+.nav-logo {
     display: flex;
     align-items: center;
     margin-right: 3rem;
 }
 
-.logo h1 {
+.nav-logo h1 {
     margin-left: 1.5rem;
-}
-
-.nav-menü li {
-    margin-left: 15px;
-}
-
-.nav-login li {
-    margin-left: 15px;
 }
 
 
@@ -92,7 +88,7 @@ section h2 {
 
 .image div {
     margin: 1rem;
-    position: relative;
+    /* position: relative; */
     border-radius: 5px;
 }
 
@@ -100,10 +96,18 @@ section h2 {
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.67);
 }
 
-.image div p {
+
+/* .image div span {
     position: absolute;
     right: 0;
     top: 180px;
+} */
+
+.image div span {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: 22vh;
 }
 
 .image1 {
