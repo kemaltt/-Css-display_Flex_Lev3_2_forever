@@ -94,8 +94,11 @@ section h2 {
 .image div {
     margin: 1rem;
     position: relative;
-    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.67);
     border-radius: 5px;
+}
+
+.image div:hover {
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.67);
 }
 
 .image div p {
