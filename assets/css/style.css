@@ -97,11 +97,17 @@ section h2 {
 }
 
 
+/* Lösung 1 */
+
+
 /* .image div span {
     position: absolute;
     right: 0;
     top: 180px;
 } */
+
+
+/* Lösung 2 */
 
 .image div span {
     display: flex;
