@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* 
+
+font-family: 'Lato', sans-serif;
+ #D9E8E5,rgba(0,0,0,.8)
+
+*/
+
+
+/*====================
+Genarel Styling
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, .8);
+}
+
+
+/* ====================================
+              Header
+===================================*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4%;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo-menü {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.logo h1 {
+    margin-left: 1.5rem;
+}
+
+.nav-menü li {
+    margin-left: 15px;
+}
+
+.nav-login li {
+    margin-left: 15px;
+}
+
+
+/* =============================
+       Main
+================================ */
+
+main {
+    background-color: #D9E8E5;
+    height: 90vh;
+    text-align: center;
+    padding: 10vh 12%;
+}
+
+section h2 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image div {
+    margin: 1rem;
+    position: relative;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.67);
+    border-radius: 5px;
+}
+
+.image div p {
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
+
+.image1 {
+    background-image: url("../img/ring001.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.image2 {
+    background: url("../img/ring002.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.image3 {
+    background: url("../img/ring003.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.image4 {
+    background: url("../img/ring004.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.image5 {
+    background: url("../img/ring005.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.image6 {
+    background: url("../img/ring006.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
