@@ -75,13 +75,12 @@ header nav ul {
 
 main {
     background-color: #D9E8E5;
-    height: 90vh;
-    text-align: center;
-    padding: 10vh 15%;
+    /* text-align: center; */
+    padding: 10vh 15% 20vh 15%;
 }
 
 section h2 {
-    text-align: left;
+    /* text-align: left; */
     margin-left: 1rem;
 }
 
