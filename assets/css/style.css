@@ -73,7 +73,7 @@ main {
     background-color: #D9E8E5;
     color: rgba(0, 0, 0, .8);
     /* text-align: center; */
-    padding: 10vh 15% 20vh 15%;
+    padding: 10vh 15% 23vh 15%;
 }
 
 section h2 {
@@ -88,85 +88,50 @@ section h2 {
 }
 
 .image div {
-    margin: 0.8rem;
-    position: relative;
+    margin: 10px;
+    padding: 5px;
     border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
 
 .image div:hover {
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.67);
 }
 
-
-/* Lösung 1 */
-
-.image div span {
-    position: absolute;
-    right: 0;
-    top: 180px;
-}
-
-
-/* Lösung 2 */
-
-
-/* .image div span {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    margin: 22.1vh 2px 0 0;
-} */
-
 .image1 {
-    background-image: url("../img/ring001.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../img/ring001.png") center/cover no-repeat;
     width: 300px;
     height: 200px;
 }
 
 .image2 {
-    background: url("../img/ring002.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../img/ring002.png") center/cover no-repeat;
     width: 300px;
     height: 200px;
 }
 
 .image3 {
-    background: url("../img/ring003.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../img/ring003.png") center/cover no-repeat;
     width: 300px;
     height: 200px;
 }
 
 .image4 {
-    background: url("../img/ring004.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../img/ring004.png") center/cover no-repeat;
     width: 300px;
     height: 200px;
 }
 
 .image5 {
-    background: url("../img/ring005.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../img/ring005.png") center/cover no-repeat;
     width: 300px;
     height: 200px;
 }
 
 .image6 {
-    background: url("../img/ring006.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../img/ring006.png") center/cover no-repeat;
     width: 300px;
     height: 200px;
 }
